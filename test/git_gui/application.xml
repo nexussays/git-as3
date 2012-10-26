@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/3.1">
+  <id>git.gui</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>git_test</filename>
+  <name>nexuslib.git repo browser</name>
+  <initialWindow>
+    <title>nexuslib.git repo browser</title>
+    <content>git_test.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <minimizable>true</minimizable>
+    <maximizable>true</maximizable>
+    <resizable>true</resizable>
+  </initialWindow>
+  <!--
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+</application>

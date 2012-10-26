@@ -1,0 +1,26 @@
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+global
+{
+	chrome-color: #333333;
+	color: #eeeeee;
+}
+s|WindowedApplication,
+s|TitleWindow,
+s|Panel,
+s|List,
+s|TextInput,
+mx|Alert
+{
+	chrome-color: #333333;
+	color: #eeeeee;
+	background-color: #111111;
+	contentBackgroundColor: #111111;
+}
+
+.monospace
+{
+	font-size: 12;
+	font-family: "Consolas";
+}

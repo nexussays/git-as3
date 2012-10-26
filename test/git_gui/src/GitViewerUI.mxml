@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<g:GitViewer xmlns:fx="http://ns.adobe.com/mxml/2009"
+			 xmlns:s="library://ns.adobe.com/flex/spark"
+			 xmlns:mx="library://ns.adobe.com/flex/mx"
+			 xmlns:g="*"
+			 width="800"
+			 height="600"
+			 creationPolicy="all"
+			 showStatusBar="false">
+
+	<fx:Style source="assets/styles/style.css" />
+
+	<s:VGroup left="5"
+			  right="5"
+			  top="5"
+			  bottom="5">
+		<s:HGroup width="100%"
+				  height="30"
+				  gap="1"
+				  verticalAlign="middle">
+			<s:TextInput width="100%"
+						 styleName="monospace"
+						 id="repoPath" />
+			<s:Button id="buttonChangeRepo"
+					  label="Browse" />
+		</s:HGroup>
+		<s:HGroup width="100%"
+				  height="100%">
+			<s:VGroup width="290"
+					  height="100%">
+				<s:TextInput width="100%"
+							 id="objectSearchField"
+							 maxChars="40"
+							 styleName="monospace" />
+				<mx:FileSystemTree width="100%"
+								   height="100%"
+								   id="repoTree" />
+				<!--
+					 <s:List id="commitLog"
+					 styleName="monospace"
+					 height="200"
+					 width="100%" />
+				-->
+			</s:VGroup>
+			<s:VGroup width="100%"
+					  height="100%">
+				<s:Label id="objectType"
+						 width="100%"
+						 styleName="monospace" />
+				<s:Scroller width="100%"
+							height="100%">
+					<s:RichEditableText id="outputText"
+										styleName="monospace"
+										width="100%"
+										height="100%" />
+				</s:Scroller>
+			</s:VGroup>
+		</s:HGroup>
+	</s:VGroup>
+
+</g:GitViewer>
