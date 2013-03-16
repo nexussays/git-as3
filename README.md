@@ -4,7 +4,7 @@ A pure Actionscript implementation of git.
 
 ## Dependencies
 
-None.
+`blooddy_crypto_0.3.5` (included)
 
 ## Features
 
